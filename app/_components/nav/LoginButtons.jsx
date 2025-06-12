@@ -1,7 +1,17 @@
+import LinkButton from "@/app/_components/buttons/LinkButton";
 import styles from "./loginButton.module.scss";
 
 function LoginButtons() {
-  return <div className={styles.loginButtons}>LoginButtons</div>;
+  return (
+    <div className={styles.loginButtons}>
+      <LinkButton link="#" color="green">
+        Contractors
+      </LinkButton>
+      <LinkButton link="#" color="orange">
+        Get a Quote
+      </LinkButton>
+    </div>
+  );
 }
 
 export default LoginButtons;

@@ -1,0 +1,25 @@
+.button,
+a.button {
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in;
+
+  &.orange {
+    background-color: $orange;
+    color: $white;
+  }
+
+  &.green {
+    background-color: $green;
+    color: $orange;
+  }
+
+  &:hover {
+    transform: translateY(-0.3rem) scale(1.05);
+  }
+}
