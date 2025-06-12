@@ -1,3 +1,19 @@
 .navLinks {
   justify-self: center;
+  align-self: center;
+
+  color: $orange;
+
+  display: flex;
+  column-gap: 10rem;
+}
+
+.link {
+  font-size: 1.8rem;
+  text-decoration: none;
+
+  &:visited,
+  &:link {
+    color: $orange;
+  }
 }
