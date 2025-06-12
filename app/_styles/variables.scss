@@ -1,3 +1,27 @@
 // COLORS
 $orange: #fc7935;
 $green: #def080;
+$purple: #8d9fff;
+$black: #141414;
+$orange-light: #fcd8be;
+
+// FONTS
+$rosca: "Rosca", system-ui, sans-serif;
+$lato: "Lato", sans-serif;
+
+// OTHER
+
+// RESPONSIVE BREAKPOINTS
+$bp-xl: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-med: 50em; // 800px;
+$bp-small: 37.5em; // 600px;
+$bp-xs: 25em; // 400px;
+
+:export {
+  orange: $orange;
+  green: $green;
+  purple: $purple;
+  black: $black;
+  orangeLight: $orange-light;
+}
