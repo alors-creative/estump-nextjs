@@ -1,7 +1,7 @@
 import styles from "./navLinks.module.scss";
 
 function NavLinks() {
-  return <div>NavLinks</div>;
+  return <div className={styles.navLinks}>NavLinks</div>;
 }
 
 export default NavLinks;

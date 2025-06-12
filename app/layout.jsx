@@ -1,6 +1,7 @@
 import { Lato } from "next/font/google";
 import "@/app/_styles/globals.scss";
 import localFont from "next/font/local";
+import Header from "@/app/_components/header/Header";
 
 const rosca = localFont({
   src: [
@@ -36,7 +37,10 @@ export default function RootLayout({ children }) {
           href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌳</text></svg>"
         />
       </head>
-      <body className={`${rosca.className}`}>{children}</body>
+      <body className={`${rosca.className}`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
