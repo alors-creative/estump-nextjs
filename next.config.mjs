@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const nextConfig = {
   sassOptions: {
-    includePaths: [path.join(__dirname, "styles")],
+    includePaths: [path.join(__dirname, "app/_styles")],
     additionalData: `@use "variables" as *;` // Or `@import "variables";` for legacy
   }
 };
