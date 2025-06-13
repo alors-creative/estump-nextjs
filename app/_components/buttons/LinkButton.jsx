@@ -2,8 +2,6 @@ import Link from "next/link";
 import styles from "./button.module.scss";
 
 function LinkButton({ link, color, children }) {
-  console.log(styles[color]);
-
   return (
     <Link href={link} className={[styles.button, styles[color]].join(" ")}>
       {children}
