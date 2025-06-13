@@ -1,9 +1,10 @@
-import Image from "next/image";
+import Hero from "@/app/_sections/home/Hero";
+import styles from "./home.module.scss";
 
 export default function Home() {
   return (
-    <div style={{ width: "100lvw", height: "105lvh" }}>
-      {/* <p>This is eStump 🏡🌳</p> */}
-    </div>
+    <section className={styles.home}>
+      <Hero />
+    </section>
   );
 }
