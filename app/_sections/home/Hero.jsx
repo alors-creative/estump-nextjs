@@ -11,9 +11,14 @@ function Hero() {
           Get Your Yard Back in Shape with eStump
         </Heading>
         <p className={styles.text}>
-          Quick, reliable, and affordable stump removal services in your area.
-          Easily connect with trusted specialists to remove unsightly tree
-          stumps and enjoy a clean, beautiful lawn.
+          At eStump, we make it simple to get rid of stubborn, unsightly tree
+          stumps that disrupt your beautiful yard. Whether you're dealing with a
+          stump from a recent storm or an old one that’s been lingering for
+          years, our seamless process connects you with trusted, local
+          specialists who are ready to get the job done quickly and efficiently.
+          Say goodbye to the hassle of handling stump removal on your own and
+          enjoy a clean, open space that's perfect for your next project or just
+          a smoother lawn.
         </p>
         <div className={styles.ctaButtons}>
           <LinkButton link="#" color="orange">
