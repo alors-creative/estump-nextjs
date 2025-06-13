@@ -4,6 +4,7 @@ export const variables = {
   $purple: "#8d9fff",
   $black: "#141414",
   $orangeLight: "#fcd8be",
+  $white: "#ffffff",
   $rosca: `"Rosca", system-ui, sans-serif`,
   $lato: `"Lato", sans-serif`,
   $bpXl: "75em",

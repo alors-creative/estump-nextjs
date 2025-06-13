@@ -1,0 +1,25 @@
+.navLinks {
+  justify-self: center;
+  align-self: center;
+
+  color: $orange;
+
+  display: flex;
+  column-gap: 10rem;
+}
+
+.link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+
+  &:visited,
+  &:link {
+    color: $orange;
+  }
+
+  &:hover {
+    color: $green;
+    transform: translateY(-0.3rem);
+  }
+}

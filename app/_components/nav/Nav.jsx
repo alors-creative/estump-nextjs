@@ -5,7 +5,7 @@ import LoginButtons from "@/app/_components/nav/LoginButtons";
 
 function Nav() {
   return (
-    <nav className="nav">
+    <nav className={styles.nav}>
       <LogoBox />
       <NavLinks />
       <LoginButtons />
