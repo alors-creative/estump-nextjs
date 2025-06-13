@@ -1,0 +1,28 @@
+.navLinks {
+  justify-self: end;
+  align-self: center;
+
+  color: $orange;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 1rem;
+  justify-items: end;
+}
+
+.link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+
+  &:visited,
+  &:link {
+    color: $orange;
+  }
+
+  &:hover {
+    color: $green;
+    transform: translateY(-0.3rem);
+  }
+}

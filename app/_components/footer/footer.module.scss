@@ -1,0 +1,39 @@
+.footer {
+  padding: 4rem 2rem 2rem;
+  border-top: 0.1rem $orange solid;
+  box-shadow: -0.1rem -0.9rem 3rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.footerMain {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  margin-bottom: 4rem;
+}
+
+.legal {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.copyright,
+.legalNotices {
+  font-size: inherit;
+  color: $orange;
+  transition: all 0.3s ease-in;
+
+  a {
+    text-decoration: none;
+    color: $green;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+}
+
+.copyright {
+}
+
+.legalNotices {
+}

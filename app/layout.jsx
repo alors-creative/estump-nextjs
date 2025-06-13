@@ -2,6 +2,7 @@ import { Lato } from "next/font/google";
 import "@/app/_styles/globals.scss";
 import localFont from "next/font/local";
 import Header from "@/app/_components/header/Header";
+import Footer from "@/app/_components/footer/Footer";
 
 const rosca = localFont({
   src: [
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
       <body className={`${rosca.className}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

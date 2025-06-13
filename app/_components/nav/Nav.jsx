@@ -1,4 +1,4 @@
-import LogoBox from "@/app/_components/nav/LogoBox";
+import LogoBox from "@/app/_ui/LogoBox";
 import styles from "./nav.module.scss";
 import NavLinks from "@/app/_components/nav/NavLinks";
 import LoginButtons from "@/app/_components/nav/LoginButtons";
