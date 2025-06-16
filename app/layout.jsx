@@ -1,4 +1,4 @@
-import { Lato } from "next/font/google";
+import { Inter } from "next/font/google";
 import "@/app/_styles/globals.scss";
 import localFont from "next/font/local";
 import Header from "@/app/_components/header/Header";
@@ -19,11 +19,6 @@ const rosca = localFont({
   ]
 });
 
-const lato = Lato({
-  weight: ["100", "300", "400", "700", "900"],
-  subsets: ["latin"]
-});
-
 export const metadata = {
   title: "eStump 🏡",
   description: "This is eStump"
@@ -40,7 +35,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${rosca.className}`}>
         <Header />
-        {children}
+        <main className="main">{children}</main>
         <Footer />
       </body>
     </html>

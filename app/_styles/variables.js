@@ -6,6 +6,7 @@ export const variables = {
   $orangeLight: "#fcd8be",
   $white: "#ffffff",
   $grey: "#7d7d7d",
+  $darkGrey: "#444444",
   $rosca: `"Rosca", system-ui, sans-serif`,
   $lato: `"Lato", sans-serif`,
   $bpXl: "75em",
