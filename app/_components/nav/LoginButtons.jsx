@@ -5,7 +5,7 @@ function LoginButtons() {
   return (
     <div className={styles.loginButtons}>
       <LinkButton link="#" color="green">
-        Contractors
+        Stump Specialists
       </LinkButton>
       <LinkButton link="#" color="orange">
         Get a Quote

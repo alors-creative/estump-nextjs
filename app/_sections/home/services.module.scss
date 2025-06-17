@@ -1,0 +1,47 @@
+.services {
+  height: 60lvh;
+  padding: 0 4rem 4rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  align-items: center;
+
+  & > :first-child {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0.1rem 0.9rem 2rem 0 rgba(0, 0, 0, 0.2);
+
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+}
+
+.content {
+}
+
+.servicesContainer {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.serviceList {
+  list-style: none;
+  list-style-position: unset;
+  padding: 0;
+}
+
+.serviceItem {
+  font-family: $lato;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+  color: $dark-grey;
+
+  span {
+    font-family: $rosca;
+    font-weight: 600;
+    color: $purple;
+  }
+}
