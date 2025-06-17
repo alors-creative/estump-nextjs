@@ -9,6 +9,10 @@
   column-gap: 2rem;
   row-gap: 1rem;
   justify-items: end;
+
+  & > :last-child {
+    grid-column: 2 / -1;
+  }
 }
 
 .link {
