@@ -17,10 +17,7 @@ function NavLinksFooter() {
         How We Measure Stumps
       </Link>
       <Link href="#" className={styles.link}>
-        FAQ - Contractor
-      </Link>
-      <Link href="#" className={styles.link}>
-        FAQ - Client
+        FAQ
       </Link>
     </div>
   );
