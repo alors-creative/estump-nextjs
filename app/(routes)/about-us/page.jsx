@@ -1,15 +1,16 @@
 import WhyeStump from "@/app/_sections/home/WhyeStump";
 import styles from "./aboutUs.module.scss";
+import Ourstory from "@/app/_sections/aboutUs/Ourstory";
+import OurValsAndMission from "@/app/_sections/aboutUs/OurValsAndMission";
+import MediaGallery from "@/app/_sections/aboutUs/MediaGallery";
 
 function page() {
   return (
     <section className={styles.aboutUs}>
-      <section className={styles.ourStory}>Our Story</section>
+      <Ourstory />
       <WhyeStump />
-      <section className={styles.ourValsAndMission}>
-        Our Values and Mission
-      </section>
-      <section className={styles.mediaGallery}>Photo and Video Gallery</section>
+      <OurValsAndMission />
+      <MediaGallery />
     </section>
   );
 }
