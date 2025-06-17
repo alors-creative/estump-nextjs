@@ -1,6 +1,6 @@
 import WhyeStump from "@/app/_sections/home/WhyeStump";
 import styles from "./aboutUs.module.scss";
-import Ourstory from "@/app/_sections/aboutUs/Ourstory";
+import Ourstory from "@/app/_sections/aboutUs/OurStory";
 import OurValsAndMission from "@/app/_sections/aboutUs/OurValsAndMission";
 import MediaGallery from "@/app/_sections/aboutUs/MediaGallery";
 

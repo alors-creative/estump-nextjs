@@ -1,7 +1,7 @@
 import styles from "./ourStory.module.scss";
 
-function Ourstory() {
+function OurStory() {
   return <section className={styles.ourStory}>Our Story</section>;
 }
 
-export default Ourstory;
+export default OurStory;
