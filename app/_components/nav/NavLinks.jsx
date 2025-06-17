@@ -4,7 +4,7 @@ import styles from "./navLinks.module.scss";
 function NavLinks() {
   return (
     <div className={styles.navLinks}>
-      <Link href="#" className={styles.link}>
+      <Link href="/about-us" className={styles.link}>
         About
       </Link>
       <Link href="#" className={styles.link}>
