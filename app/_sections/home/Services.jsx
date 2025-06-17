@@ -32,7 +32,7 @@ function Services() {
             </li>
           </ul>
         </div>
-        <LinkButton link="#" color="orange">
+        <LinkButton link="#" color="green">
           Get Connected With a Stump Specialist
         </LinkButton>
       </div>

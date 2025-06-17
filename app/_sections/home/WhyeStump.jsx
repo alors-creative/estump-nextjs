@@ -8,7 +8,7 @@ import LinkButton from "@/app/_components/buttons/LinkButton";
 const content = [
   {
     heading: "Quick & Easy",
-    text: "Simply enter your stump measurements, pick a time, and schedule your removal. We make the process effortless, so you can sit back and let us handle the rest—whether it's a small stump or a larger job.",
+    text: "Simply enter your stump measurements, pick a time, and schedule your removal. We make the process effortless, so you can sit back and let us handle the rest, whether it's a small stump or a larger job.",
     icon: IoSpeedometer
   },
   {
@@ -18,7 +18,7 @@ const content = [
   },
   {
     heading: "Transparent Pricing",
-    text: "No surprises—just clear, upfront pricing based on your stump’s size. We believe in honesty, so you’ll always know exactly what to expect before the job begins.",
+    text: "No surprises! Just clear, upfront pricing based on your stump’s size. We believe in honesty, so you’ll always know exactly what to expect before the job begins.",
     icon: IoPricetags
   }
 ];

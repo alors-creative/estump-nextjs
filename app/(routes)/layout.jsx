@@ -7,12 +7,12 @@ import Footer from "@/app/_components/footer/Footer";
 const rosca = localFont({
   src: [
     {
-      path: "./fonts/Rosca.woff",
+      path: "../fonts/Rosca.woff",
       weight: "400",
       style: "normal"
     },
     {
-      path: "./fonts/Rosca-Slant.woff",
+      path: "../fonts/Rosca-Slant.woff",
       weight: "400",
       style: "italic"
     }
