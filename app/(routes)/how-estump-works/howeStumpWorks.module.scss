@@ -1,0 +1,166 @@
+.howestumpworks {
+  padding: 6rem 4rem;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.steps {
+  margin-top: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  column-gap: 4rem;
+  row-gap: 4rem;
+}
+
+.step {
+  display: grid;
+  grid-template-rows: 30lvh 1fr;
+
+  &-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  &-2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  &-3 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+  }
+
+  &-4 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
+
+  &-5 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+}
+
+.stepImage {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+}
+
+.header {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+
+  h5 {
+    margin-bottom: 0.3rem;
+  }
+}
+
+.text {
+  font-family: $lato;
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
+
+.filler {
+  background-color: $orange-light;
+  border-radius: 0.5rem;
+
+  &1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  &2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  &3 {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+  }
+
+  &4 {
+    background-color: rgba($green, 0.3);
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  &5 {
+    background-color: rgba($purple, 0.3);
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+  &6 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  &7 {
+    background-color: rgba($green, 0.3);
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  &8 {
+    background-color: rgba($purple, 0.3);
+  }
+}
+
+.fillerImage {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  &Green {
+    &::before {
+      background-color: rgba($green, 0.5);
+    }
+  }
+
+  &Purple {
+    &::before {
+      background-color: rgba($purple, 0.5);
+    }
+  }
+
+  &Orange {
+    &::before {
+      background-color: rgba($orange, 0.3);
+    }
+  }
+
+  &1 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  &2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+}
