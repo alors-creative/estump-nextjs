@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <section className={styles.home}>
       <Hero />
-      <WhyeStump />
+      <WhyeStump includeBtn={true} />
       <Services />
       <HowItWorks />
     </section>

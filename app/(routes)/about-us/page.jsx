@@ -8,7 +8,7 @@ function page() {
   return (
     <section className={styles.aboutUs}>
       <Ourstory />
-      <WhyeStump />
+      <WhyeStump includeBtn={false} />
       <OurValsAndMission />
       <MediaGallery />
     </section>
