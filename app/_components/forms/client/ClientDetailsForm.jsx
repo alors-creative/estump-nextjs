@@ -17,7 +17,9 @@ function ClientDetailsForm() {
       type="partial"
       submitFunc={e =>
         handleFormSubmit(e, setFormDataRef, () =>
-          router.push("/find-a-specialist/job-request/photos")
+          router.push(
+            "/find-a-specialist/job-request/measurement/how-to-measure"
+          )
         )
       }>
       <Input

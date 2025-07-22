@@ -12,7 +12,7 @@ export async function handleFormSubmit(e, setFormDataRef, onSuccess) {
   }));
 
   if (typeof onSuccess === "function") {
-    // await onSuccess();
+    await onSuccess();
   }
 }
 
