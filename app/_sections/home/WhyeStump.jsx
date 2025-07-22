@@ -23,7 +23,7 @@ const content = [
   }
 ];
 
-function WhyeStump() {
+function WhyeStump({ includeBtn }) {
   return (
     <section className={styles.whyeStump}>
       <div className={styles.overview}>
@@ -46,11 +46,13 @@ function WhyeStump() {
           />
         ))}
       </div>
-      <div className={styles.buttons}>
-        <LinkButton link="#" color="orange">
-          Learn More
-        </LinkButton>
-      </div>
+      {includeBtn && (
+        <div className={styles.buttons}>
+          <LinkButton link="#" color="orange">
+            Learn More
+          </LinkButton>
+        </div>
+      )}
     </section>
   );
 }

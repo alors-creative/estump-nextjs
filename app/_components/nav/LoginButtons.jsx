@@ -7,7 +7,7 @@ function LoginButtons() {
       <LinkButton link="#" color="green">
         Stump Specialists
       </LinkButton>
-      <LinkButton link="#" color="orange">
+      <LinkButton link="/find-a-specialist" color="orange">
         Get a Quote
       </LinkButton>
     </div>
