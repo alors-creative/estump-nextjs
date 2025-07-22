@@ -70,7 +70,9 @@ function page() {
           information, we’ll connect you with the right professional who can get
           the job done quickly and efficiently.
         </p>
-        <LinkButton link="#" color="orange">
+        <LinkButton
+          link="/find-a-specialist/job-request/client-details"
+          color="orange">
           Get Started
         </LinkButton>
       </div>
