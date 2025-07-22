@@ -1,4 +1,4 @@
-import ClientDetails from "@/app/_components/forms/client/ClientDetails";
+import ClientDetails from "@/app/_components/forms/client/ClientDetailsForm";
 import styles from "../jobRequest.module.scss";
 import { JobFormProvider } from "@/app/_context/JobFormContext";
 

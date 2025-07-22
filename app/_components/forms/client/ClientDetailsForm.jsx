@@ -7,7 +7,7 @@ import { createJob } from "@/app/_lib/actions";
 import { handleFormSubmit, handleInputChange } from "@/app/_lib/formUtils";
 import { useRouter } from "next/navigation";
 
-function ClientDetails() {
+function ClientDetailsForm() {
   const router = useRouter();
   const { formDataRef, setFormDataRef } = useJobForm();
   const handleChange = handleInputChange(setFormDataRef);
@@ -86,4 +86,4 @@ function ClientDetails() {
   );
 }
 
-export default ClientDetails;
+export default ClientDetailsForm;
