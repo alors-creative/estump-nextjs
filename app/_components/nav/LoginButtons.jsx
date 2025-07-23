@@ -4,7 +4,7 @@ import styles from "./loginButton.module.scss";
 function LoginButtons() {
   return (
     <div className={styles.loginButtons}>
-      <LinkButton link="#" color="green">
+      <LinkButton link="/become-a-specialist" color="green">
         Stump Specialists
       </LinkButton>
       <LinkButton link="/find-a-specialist" color="orange">
