@@ -7,12 +7,7 @@ const JobFormContext = createContext();
 const initialState = { from: undefined, to: undefined };
 
 function JobFormProvider({ children }) {
-  const [formDataRef, setFormDataRef] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phoneNumber: ""
-  });
+  const [formDataRef, setFormDataRef] = useState({});
 
   return (
     <JobFormContext.Provider value={{ formDataRef, setFormDataRef }}>
