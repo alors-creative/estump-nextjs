@@ -1,9 +1,9 @@
 "use client";
 
+import FormSubmitButton from "@/app/_components/buttons/FormSubmitButton";
 import Form from "@/app/_components/forms/components/Form";
 import Input from "@/app/_components/forms/components/Input";
 import { useJobForm } from "@/app/_context/JobFormContext";
-import { createJob } from "@/app/_lib/actions";
 import { handleFormSubmit, handleInputChange } from "@/app/_lib/formUtils";
 import { useRouter } from "next/navigation";
 
@@ -83,7 +83,7 @@ function ClientDetailsForm() {
         maxLength={5}
       />
 
-      <button type="submit">Next</button>
+      <FormSubmitButton color="orange">Next</FormSubmitButton>
     </Form>
   );
 }
