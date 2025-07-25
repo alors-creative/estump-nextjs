@@ -8,7 +8,7 @@ function LogoBox() {
       <Link href="/">
         <div className={styles.logo}>
           <Image
-            src="/logos/ESTUMP_Primary_Logo_RGB_White.png"
+            src="/logos/ESTUMP_Primary_Logo_RGB_Orange.png"
             alt="eStump Logo"
             fill
             priority

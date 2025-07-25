@@ -1,0 +1,23 @@
+.myInfo {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 4rem;
+
+  .imageContainer {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .info {
+    font-size: 2rem;
+  }
+
+  p {
+    color: $purple;
+
+    span {
+      color: $orange;
+    }
+  }
+}

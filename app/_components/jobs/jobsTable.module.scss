@@ -1,0 +1,25 @@
+.table {
+  border-collapse: collapse;
+  border: 1px solid $orange;
+
+  tbody,
+  th,
+  td {
+    border: 1px solid $orange;
+    padding: 2rem;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  td {
+    font-size: 1.6rem;
+    color: $purple;
+    font-family: $lato;
+  }
+
+  thead {
+    background-color: $orange;
+    color: $white;
+    font-size: 1.8rem;
+  }
+}
