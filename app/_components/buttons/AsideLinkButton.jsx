@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 
 function AsideLinkButton({ link, color, children }) {
   const pathname = usePathname();
-  console.log(pathname === link);
 
   return (
     <Link

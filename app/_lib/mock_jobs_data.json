@@ -1,0 +1,916 @@
+{"jobs": [
+  {
+    "id": 1,
+    "title": "Stump Removal Job #1",
+    "description": "Remove 2 stumps from backyard area.",
+    "status": "pending",
+    "price": 296,
+    "created_at": "2025-07-12T13:17:44.887151",
+    "client": {
+      "id": 1,
+      "first_name": "Client1",
+      "last_name": "Surname1",
+      "email": "client1@example.com",
+      "phone": "555-01001",
+      "address": "1 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 15,
+        "height": 12,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      },
+      {
+        "width": 30,
+        "height": 9,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Stump Removal Job #2",
+    "description": "Remove 3 stumps from backyard area.",
+    "status": "pending",
+    "price": 218,
+    "created_at": "2025-07-10T13:17:44.887204",
+    "client": {
+      "id": 2,
+      "first_name": "Client2",
+      "last_name": "Surname2",
+      "email": "client2@example.com",
+      "phone": "555-01002",
+      "address": "2 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 11,
+        "height": 5,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 10,
+        "height": 8,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 19,
+        "height": 14,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Stump Removal Job #3",
+    "description": "Remove 3 stumps from backyard area.",
+    "status": "pending",
+    "price": 149,
+    "created_at": "2025-06-26T13:17:44.887228",
+    "client": {
+      "id": 3,
+      "first_name": "Client3",
+      "last_name": "Surname3",
+      "email": "client3@example.com",
+      "phone": "555-01003",
+      "address": "3 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 22,
+        "height": 12,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Stump Removal Job #4",
+    "description": "Remove 3 stumps from backyard area.",
+    "status": "pending",
+    "price": 310,
+    "created_at": "2025-07-12T13:17:44.887247",
+    "client": {
+      "id": 4,
+      "first_name": "Client4",
+      "last_name": "Surname4",
+      "email": "client4@example.com",
+      "phone": "555-01004",
+      "address": "4 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 28,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 23,
+        "height": 7,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 22,
+        "height": 7,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Stump Removal Job #5",
+    "description": "Remove 2 stumps from backyard area.",
+    "status": "pending",
+    "price": 385,
+    "created_at": "2025-06-30T13:17:44.887268",
+    "client": {
+      "id": 5,
+      "first_name": "Client5",
+      "last_name": "Surname5",
+      "email": "client5@example.com",
+      "phone": "555-01005",
+      "address": "5 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 23,
+        "height": 7,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 24,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 18,
+        "height": 13,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Stump Removal Job #6",
+    "description": "Remove 1 stumps from backyard area.",
+    "status": "pending",
+    "price": 117,
+    "created_at": "2025-07-15T13:17:44.887290",
+    "client": {
+      "id": 6,
+      "first_name": "Client6",
+      "last_name": "Surname6",
+      "email": "client6@example.com",
+      "phone": "555-01006",
+      "address": "6 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 10,
+        "height": 9,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 19,
+        "height": 8,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 26,
+        "height": 15,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Stump Removal Job #7",
+    "description": "Remove 1 stumps from backyard area.",
+    "status": "pending",
+    "price": 441,
+    "created_at": "2025-07-23T13:17:44.887311",
+    "client": {
+      "id": 7,
+      "first_name": "Client7",
+      "last_name": "Surname7",
+      "email": "client7@example.com",
+      "phone": "555-01007",
+      "address": "7 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 24,
+        "height": 11,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 27,
+        "height": 13,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 24,
+        "height": 8,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Stump Removal Job #8",
+    "description": "Remove 3 stumps from backyard area.",
+    "status": "pending",
+    "price": 285,
+    "created_at": "2025-07-16T13:17:44.887334",
+    "client": {
+      "id": 8,
+      "first_name": "Client8",
+      "last_name": "Surname8",
+      "email": "client8@example.com",
+      "phone": "555-01008",
+      "address": "8 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 19,
+        "height": 9,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 12,
+        "height": 15,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Stump Removal Job #9",
+    "description": "Remove 1 stumps from backyard area.",
+    "status": "pending",
+    "price": 399,
+    "created_at": "2025-07-19T13:17:44.887357",
+    "client": {
+      "id": 9,
+      "first_name": "Client9",
+      "last_name": "Surname9",
+      "email": "client9@example.com",
+      "phone": "555-01009",
+      "address": "9 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 26,
+        "height": 10,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Stump Removal Job #10",
+    "description": "Remove 2 stumps from backyard area.",
+    "status": "pending",
+    "price": 305,
+    "created_at": "2025-07-17T13:17:44.887374",
+    "client": {
+      "id": 10,
+      "first_name": "Client10",
+      "last_name": "Surname10",
+      "email": "client10@example.com",
+      "phone": "555-01010",
+      "address": "10 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 29,
+        "height": 9,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 16,
+        "height": 10,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 20,
+        "height": 11,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Stump Removal Job #11",
+    "description": "Remove 1 stumps from backyard area.",
+    "status": "pending",
+    "price": 105,
+    "created_at": "2025-07-09T13:17:44.887398",
+    "client": {
+      "id": 11,
+      "first_name": "Client11",
+      "last_name": "Surname11",
+      "email": "client11@example.com",
+      "phone": "555-01011",
+      "address": "11 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 19,
+        "height": 15,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      },
+      {
+        "width": 16,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 18,
+        "height": 8,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Stump Removal Job #12",
+    "description": "Remove 1 stumps from backyard area.",
+    "status": "pending",
+    "price": 307,
+    "created_at": "2025-07-18T13:17:44.887423",
+    "client": {
+      "id": 12,
+      "first_name": "Client12",
+      "last_name": "Surname12",
+      "email": "client12@example.com",
+      "phone": "555-01012",
+      "address": "12 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 20,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      },
+      {
+        "width": 19,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Stump Removal Job #13",
+    "description": "Remove 1 stumps from backyard area.",
+    "status": "pending",
+    "price": 268,
+    "created_at": "2025-07-18T13:17:44.887444",
+    "client": {
+      "id": 13,
+      "first_name": "Client13",
+      "last_name": "Surname13",
+      "email": "client13@example.com",
+      "phone": "555-01013",
+      "address": "13 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 21,
+        "height": 8,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Stump Removal Job #14",
+    "description": "Remove 2 stumps from backyard area.",
+    "status": "pending",
+    "price": 411,
+    "created_at": "2025-07-03T13:17:44.887463",
+    "client": {
+      "id": 14,
+      "first_name": "Client14",
+      "last_name": "Surname14",
+      "email": "client14@example.com",
+      "phone": "555-01014",
+      "address": "14 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 25,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Stump Removal Job #15",
+    "description": "Remove 3 stumps from backyard area.",
+    "status": "pending",
+    "price": 235,
+    "created_at": "2025-07-05T13:17:44.887480",
+    "client": {
+      "id": 15,
+      "first_name": "Client15",
+      "last_name": "Surname15",
+      "email": "client15@example.com",
+      "phone": "555-01015",
+      "address": "15 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 11,
+        "height": 13,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Stump Removal Job #16",
+    "description": "Remove 1 stumps from backyard area.",
+    "status": "pending",
+    "price": 271,
+    "created_at": "2025-06-30T13:17:44.887495",
+    "client": {
+      "id": 16,
+      "first_name": "Client16",
+      "last_name": "Surname16",
+      "email": "client16@example.com",
+      "phone": "555-01016",
+      "address": "16 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 19,
+        "height": 7,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 14,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 19,
+        "height": 5,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Stump Removal Job #17",
+    "description": "Remove 1 stumps from backyard area.",
+    "status": "pending",
+    "price": 394,
+    "created_at": "2025-07-16T13:17:44.887515",
+    "client": {
+      "id": 17,
+      "first_name": "Client17",
+      "last_name": "Surname17",
+      "email": "client17@example.com",
+      "phone": "555-01017",
+      "address": "17 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 18,
+        "height": 15,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 13,
+        "height": 14,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Stump Removal Job #18",
+    "description": "Remove 2 stumps from backyard area.",
+    "status": "pending",
+    "price": 496,
+    "created_at": "2025-07-05T13:17:44.887536",
+    "client": {
+      "id": 18,
+      "first_name": "Client18",
+      "last_name": "Surname18",
+      "email": "client18@example.com",
+      "phone": "555-01018",
+      "address": "18 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 26,
+        "height": 15,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 24,
+        "height": 15,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 11,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Stump Removal Job #19",
+    "description": "Remove 3 stumps from backyard area.",
+    "status": "pending",
+    "price": 396,
+    "created_at": "2025-06-27T13:17:44.887558",
+    "client": {
+      "id": 19,
+      "first_name": "Client19",
+      "last_name": "Surname19",
+      "email": "client19@example.com",
+      "phone": "555-01019",
+      "address": "19 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 28,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7K3DCqse5MMQg2Lv0PThMyuBTYCVEXZH1qQ&s"
+          }
+        ]
+      },
+      {
+        "width": 15,
+        "height": 5,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Stump Removal Job #20",
+    "description": "Remove 1 stumps from backyard area.",
+    "status": "pending",
+    "price": 380,
+    "created_at": "2025-07-04T13:17:44.887576",
+    "client": {
+      "id": 20,
+      "first_name": "Client20",
+      "last_name": "Surname20",
+      "email": "client20@example.com",
+      "phone": "555-01020",
+      "address": "20 Main Street, City, ST, 12345"
+    },
+    "contractor": null,
+    "stumps": [
+      {
+        "width": 17,
+        "height": 10,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Stump Removal Job #21",
+    "description": "Remove 3 stumps from backyard area.",
+    "status": "scheduled",
+    "price": 386,
+    "created_at": "2025-07-11T13:17:44.887592",
+    "client": {
+      "id": 21,
+      "first_name": "Client21",
+      "last_name": "Surname21",
+      "email": "client21@example.com",
+      "phone": "555-01021",
+      "address": "21 Main Street, City, ST, 12345"
+    },
+    "contractor": {
+      "id": 1,
+      "first_name": "Joe",
+      "last_name": "Smith",
+      "business_name": "Tree Masters Inc.",
+      "disclaimer_accepted": true,
+      "revenue_earned": 12500,
+      "status": "approved",
+      "profile_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmrWoTy5y1JpI8gIRndKtWPvh1diQXNcI20w&s"
+    },
+    "stumps": [
+      {
+        "width": 18,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 16,
+        "height": 14,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Stump Removal Job #22",
+    "description": "Remove 2 stumps from backyard area.",
+    "status": "scheduled",
+    "price": 117,
+    "created_at": "2025-06-30T13:17:44.887610",
+    "client": {
+      "id": 22,
+      "first_name": "Client22",
+      "last_name": "Surname22",
+      "email": "client22@example.com",
+      "phone": "555-01022",
+      "address": "22 Main Street, City, ST, 12345"
+    },
+    "contractor": {
+      "id": 1,
+      "first_name": "Joe",
+      "last_name": "Smith",
+      "business_name": "Tree Masters Inc.",
+      "disclaimer_accepted": true,
+      "revenue_earned": 12500,
+      "status": "approved",
+      "profile_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmrWoTy5y1JpI8gIRndKtWPvh1diQXNcI20w&s"
+    },
+    "stumps": [
+      {
+        "width": 10,
+        "height": 6,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      },
+      {
+        "width": 13,
+        "height": 12,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Stump Removal Job #23",
+    "description": "Remove 2 stumps from backyard area.",
+    "status": "scheduled",
+    "price": 155,
+    "created_at": "2025-07-09T13:17:44.887627",
+    "client": {
+      "id": 23,
+      "first_name": "Client23",
+      "last_name": "Surname23",
+      "email": "client23@example.com",
+      "phone": "555-01023",
+      "address": "23 Main Street, City, ST, 12345"
+    },
+    "contractor": {
+      "id": 1,
+      "first_name": "Joe",
+      "last_name": "Smith",
+      "business_name": "Tree Masters Inc.",
+      "disclaimer_accepted": true,
+      "revenue_earned": 12500,
+      "status": "approved",
+      "profile_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmrWoTy5y1JpI8gIRndKtWPvh1diQXNcI20w&s"
+    },
+    "stumps": [
+      {
+        "width": 12,
+        "height": 11,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQ4s628Z2mNSMl83LRj8mcVoy6aEaJLWUGA&s"
+          }
+        ]
+      },
+      {
+        "width": 26,
+        "height": 15,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      },
+      {
+        "width": 13,
+        "height": 7,
+        "photos": [
+          {
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjibNkJnvy1BiJeXfKmr0-TlReNokQZKQ_vg&s"
+          }
+        ]
+      }
+    ]
+  }
+]}
