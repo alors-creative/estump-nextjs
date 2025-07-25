@@ -8,7 +8,7 @@ import LinkButton from "@/app/_components/buttons/LinkButton";
 const content = [
   {
     heading: "Quick & Easy",
-    text: "Simply enter your stump measurements, pick a time, and schedule your removal. We make the process effortless, so you can sit back and let us handle the rest, whether it's a small stump or a larger job.",
+    text: "Simply enter your stump measurements, a stump specialist will reach out to you within 48 hours to schedule your removal. We make the process effortless, so you can sit back and let us handle the rest, whether it's a small stump or a larger job.",
     icon: IoSpeedometer
   },
   {

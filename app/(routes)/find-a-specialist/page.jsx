@@ -13,7 +13,7 @@ function page() {
             styles.heroImageContainer1
           ].join(" ")}>
           <Image
-            src="/photos/stump-1.jpg"
+            src="/photos/stump-7-vapproved.JPG"
             alt="Photo of a tree stump"
             fill
             priority
@@ -30,7 +30,7 @@ function page() {
             styles.heroImageContainer2
           ].join(" ")}>
           <Image
-            src="/photos/stump-grinder-1.jpg"
+            src="/photos/stump-8-vapproved.JPG"
             alt="Photo of a tree stump"
             fill
             priority
@@ -46,7 +46,7 @@ function page() {
             styles.heroImageContainer3
           ].join(" ")}>
           <Image
-            src="/photos/woodchips-1.jpg"
+            src="/photos/stump-9-vapproved.JPG"
             alt="Photo of a tree stump"
             fill
             priority

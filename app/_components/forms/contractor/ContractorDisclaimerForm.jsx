@@ -8,7 +8,7 @@ import { useForm } from "@/app/_context/FormContext";
 import { handleFormSubmit, handleInputChange } from "@/app/_lib/formUtils";
 import { useRouter } from "next/navigation";
 
-function EquipmentInfo() {
+function ContractorDisclaimerForm() {
   const router = useRouter();
   const { formDataRef, setFormDataRef } = useForm();
   const handleChange = handleInputChange(setFormDataRef);
@@ -18,16 +18,19 @@ function EquipmentInfo() {
       type="partial"
       submitFunc={e =>
         handleFormSubmit(e, setFormDataRef, () =>
-          router.push("/become-a-specialist/estump-contractor-disclaimer")
+          router.push("/become-a-specialist/review")
         )
       }>
-      <h1>Truck Photo</h1>
-      <ImageInput name="truck" documentType="Truck" />
-      <h1>Machine</h1>
-      <ImageInput name="machine" documentType="Machine" />
+      <Input
+        type="checkbox"
+        name="estumpDisclaimer"
+        value={formDataRef.estumpDisclaimer || false}
+        placeholder="Measurement Disclaimer"
+        onChange={handleChange}
+      />
       <FormSubmitButton color="orange">Next</FormSubmitButton>
     </Form>
   );
 }
 
-export default EquipmentInfo;
+export default ContractorDisclaimerForm;

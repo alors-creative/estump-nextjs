@@ -53,7 +53,7 @@ function Hero() {
             styles.heroImageContainer2
           ].join(" ")}>
           <Image
-            src="/photos/stump-grinder-1.jpg"
+            src="/photos/stump-and-machine-2.jpg"
             alt="Photo of a tree stump"
             fill
             priority

@@ -37,10 +37,10 @@ function FormReview() {
                     />
                   ))
                 ) : (
-                  value.map((v, i) => <p key={i}>{v.name || "File"}</p>)
+                  value.map((v, i) => <span key={i}>{v.name || "File"}</span>)
                 )
               ) : typeof value === "object" && value instanceof File ? (
-                <p>{value.name}</p>
+                <span>{value.name}</span>
               ) : (
                 value
               )}

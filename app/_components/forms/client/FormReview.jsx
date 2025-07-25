@@ -21,7 +21,6 @@ function FormReview() {
         )
       }>
       <>
-        <h1>Test</h1>
         {Object.entries(formDataRef)?.map(([key, value]) => (
           <div key={key}>
             <p>
