@@ -11,10 +11,10 @@ function NavLinksFooter() {
         How eStump Works
       </Link>
       <Link href="#" className={styles.link}>
-        Contact Us
+        How We Measure Stumps
       </Link>
       <Link href="#" className={styles.link}>
-        How We Measure Stumps
+        Contact Us
       </Link>
       <Link href="#" className={styles.link}>
         FAQ
