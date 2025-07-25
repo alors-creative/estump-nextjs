@@ -20,7 +20,8 @@ function Footer() {
         <div className={styles.copyright}>
           <p>
             Designed, Developed & Maintained by{" "}
-            <Link href="#">Alors Creative</Link> | &copy;{year}
+            <Link href="https://alorscreative.com/">Alors Creative</Link> |
+            &copy;{year}
           </p>
         </div>
         <div className={styles.legalNotices}>
