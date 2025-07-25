@@ -3,13 +3,13 @@
 import FormSubmitButton from "@/app/_components/buttons/FormSubmitButton";
 import Form from "@/app/_components/forms/components/Form";
 import Input from "@/app/_components/forms/components/Input";
-import { useJobForm } from "@/app/_context/JobFormContext";
+import { useForm } from "@/app/_context/FormContext";
 import { handleFormSubmit, handleInputChange } from "@/app/_lib/formUtils";
 import { useRouter } from "next/navigation";
 
 function InfoForm() {
   const router = useRouter();
-  const { formDataRef, setFormDataRef } = useJobForm();
+  const { formDataRef, setFormDataRef } = useForm();
   const handleChange = handleInputChange(setFormDataRef);
 
   return (

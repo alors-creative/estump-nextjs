@@ -1,7 +1,7 @@
-import { JobFormProvider } from "@/app/_context/JobFormContext";
+import { FormProvider } from "@/app/_context/FormContext";
 
 function JobRequestLayout({ children }) {
-  return <JobFormProvider>{children}</JobFormProvider>;
+  return <FormProvider>{children}</FormProvider>;
 }
 
 export default JobRequestLayout;

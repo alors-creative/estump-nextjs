@@ -3,13 +3,13 @@
 import FormSubmitButton from "@/app/_components/buttons/FormSubmitButton";
 import Form from "@/app/_components/forms/components/Form";
 import Input from "@/app/_components/forms/components/Input";
-import { useJobForm } from "@/app/_context/JobFormContext";
+import { useForm } from "@/app/_context/FormContext";
 import { handleFormSubmit, handleInputChange } from "@/app/_lib/formUtils";
 import { useRouter } from "next/navigation";
 
 function MeasurementDisclaimerForm() {
   const router = useRouter();
-  const { formDataRef, setFormDataRef } = useJobForm();
+  const { formDataRef, setFormDataRef } = useForm();
   const handleChange = handleInputChange(setFormDataRef);
 
   return (
@@ -20,7 +20,13 @@ function MeasurementDisclaimerForm() {
           router.push("/find-a-specialist/job-request/stump")
         )
       }>
-      Checkbox input here
+      <Input
+        type="checkbox"
+        name="measurementDisclaimer"
+        value={formDataRef.measurementDisclaimer || false}
+        placeholder="Measurement Disclaimer"
+        onChange={handleChange}
+      />
       <FormSubmitButton color="orange">Next</FormSubmitButton>
     </Form>
   );
