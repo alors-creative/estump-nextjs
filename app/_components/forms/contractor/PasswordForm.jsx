@@ -8,16 +8,35 @@ import { handleFormSubmit, handleInputChange } from "@/app/_lib/formUtils";
 import { useRouter } from "next/navigation";
 
 function PasswordForm() {
-  <Form
-    type="partial"
-    submitFunc={e =>
-      handleFormSubmit(e, setFormDataRef, () =>
-        router.push("/find-a-specialist/become-a-specialist/review")
-      )
-    }>
-    Set account password
-    <FormSubmitButton color="orange">Next</FormSubmitButton>
-  </Form>;
+  const router = useRouter();
+  const { formDataRef, setFormDataRef } = useForm();
+  const handleChange = handleInputChange(setFormDataRef);
+
+  return (
+    <Form
+      type="partial"
+      submitFunc={e =>
+        handleFormSubmit(e, setFormDataRef, () =>
+          router.push("/become-a-specialist/compliance-docs")
+        )
+      }>
+      <Input
+        type="password"
+        name="password"
+        value={formDataRef.password || ""}
+        placeholder="Password"
+        onChange={handleChange}
+      />
+      <Input
+        type="password"
+        name="confirmPassword"
+        value={formDataRef.confirmPassword || ""}
+        placeholder="Confirm Password"
+        onChange={handleChange}
+      />
+      <FormSubmitButton color="orange">Next</FormSubmitButton>
+    </Form>
+  );
 }
 
 export default PasswordForm;

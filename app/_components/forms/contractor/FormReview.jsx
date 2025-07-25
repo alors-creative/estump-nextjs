@@ -19,7 +19,7 @@ function FormReview() {
         // handleFormSubmit(e, setFormDataRef, () =>
         //   router.push("/find-a-specialist/job-request/stump")
         // )
-        router.push("/find-a-specialist/become-a-specialist/confirmation")
+        router.push("/become-a-specialist/confirmation")
       }>
       <>
         {Object.entries(formDataRef)?.map(([key, value]) => (

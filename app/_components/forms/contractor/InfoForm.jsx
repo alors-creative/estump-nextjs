@@ -17,10 +17,46 @@ function InfoForm() {
       type="partial"
       submitFunc={e =>
         handleFormSubmit(e, setFormDataRef, () =>
-          router.push("/find-a-specialist/become-a-specialist/compliance-docs")
+          router.push("/become-a-specialist/set-password")
         )
       }>
-      Info
+      <Input
+        type="text"
+        name="firstName"
+        value={formDataRef.firstName || ""}
+        placeholder="First Name"
+        onChange={handleChange}
+      />
+      <Input
+        type="text"
+        name="lastName"
+        value={formDataRef.lastName || ""}
+        placeholder="Last Name"
+        onChange={handleChange}
+      />
+
+      <Input
+        type="email"
+        name="email"
+        value={formDataRef.email || ""}
+        placeholder="Email"
+        onChange={handleChange}
+      />
+
+      <Input
+        type="phone"
+        name="phoneNumber"
+        value={formDataRef.phoneNumber || ""}
+        placeholder="Phone Number"
+        onChange={handleChange}
+      />
+
+      <input
+        type="hidden"
+        id="account_type"
+        name="account_type"
+        value="Contractor"
+      />
       <FormSubmitButton color="orange">Next</FormSubmitButton>
     </Form>
   );

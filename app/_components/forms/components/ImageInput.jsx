@@ -2,7 +2,7 @@
 
 import { useForm } from "@/app/_context/FormContext";
 
-function ImageInput({ name }) {
+function ImageInput({ name, documentType = "stump" }) {
   const { setIsUploading, setFormDataRef } = useForm();
 
   const handleMultipleUploads = async files => {
@@ -38,10 +38,43 @@ function ImageInput({ name }) {
       }
     }
 
-    setFormDataRef(prev => ({
-      ...prev,
-      photos: [...(prev.photos ?? []), ...uploadedUrls]
-    }));
+    setFormDataRef(prev => {
+      if (documentType === "Truck" || documentType === "Machine") {
+        return {
+          ...prev,
+          equipmentPhotos: [
+            ...(prev.equipmentPhotos || []).filter(
+              p => p.type !== documentType
+            ),
+            ...uploadedUrls.map(url => ({
+              type: documentType,
+              photo_url: url
+            }))
+          ]
+        };
+      }
+
+      if (documentType && documentType !== "stump") {
+        return {
+          ...prev,
+          complianceDocs: [
+            ...(prev.complianceDocs || []).filter(
+              d => d.document_type !== documentType
+            ),
+            ...uploadedUrls.map(url => ({
+              document_type: documentType,
+              photo_url: url,
+              status: "pending"
+            }))
+          ]
+        };
+      }
+
+      return {
+        ...prev,
+        photos: [...(prev.photos ?? []), ...uploadedUrls]
+      };
+    });
 
     setIsUploading(false);
   };
@@ -53,7 +86,7 @@ function ImageInput({ name }) {
         id={name}
         className=""
         accept="image/*"
-        multiple
+        multiple={documentType === "stump" ? true : false}
         onChange={e => {
           const files = Array.from(e.target.files ?? []);
           if (files.length > 0) handleMultipleUploads(files);

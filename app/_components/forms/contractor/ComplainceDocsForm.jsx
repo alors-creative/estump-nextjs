@@ -2,6 +2,7 @@
 
 import FormSubmitButton from "@/app/_components/buttons/FormSubmitButton";
 import Form from "@/app/_components/forms/components/Form";
+import ImageInput from "@/app/_components/forms/components/ImageInput";
 import Input from "@/app/_components/forms/components/Input";
 import { useForm } from "@/app/_context/FormContext";
 import { handleFormSubmit, handleInputChange } from "@/app/_lib/formUtils";
@@ -17,10 +18,15 @@ function ComplainceDocsForm() {
       type="partial"
       submitFunc={e =>
         handleFormSubmit(e, setFormDataRef, () =>
-          router.push("/find-a-specialist/become-a-specialist/equipment-info")
+          router.push("/become-a-specialist/equipment-info")
         )
       }>
-      Compliance Docs
+      <h1>Profile Picture</h1>
+      <ImageInput name="contractorProfile" documentType="ContractorProfile" />
+      <h1>Proof of Insurance</h1>
+      <ImageInput name="proofOfInsurance" documentType="ProofOfInsurance" />
+      <h1>Business License</h1>
+      <ImageInput name="businessLicense" documentType="BusinessLicense" />
       <FormSubmitButton color="orange">Next</FormSubmitButton>
     </Form>
   );
