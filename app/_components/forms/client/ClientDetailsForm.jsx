@@ -83,6 +83,12 @@ function ClientDetailsForm() {
         maxLength={5}
       />
 
+      <input
+        type="hidden"
+        id="account_type"
+        name="account_type"
+        value="Client"
+      />
       <FormSubmitButton color="orange">Next</FormSubmitButton>
     </Form>
   );
