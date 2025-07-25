@@ -1,5 +1,7 @@
 .button,
-a.button {
+.button:visited,
+a.button,
+a.button:visited {
   text-decoration: none;
   display: block;
   padding: 1rem;
@@ -13,6 +15,11 @@ a.button {
 
   transition: all 0.3s ease-in;
 
+  &:hover,
+  &:active {
+    transform: translateY(-0.3rem) scale(1.05);
+  }
+
   &.orange {
     background-color: $orange;
     color: $white;
@@ -22,8 +29,41 @@ a.button {
     background-color: $green;
     color: $orange;
   }
+}
 
-  &:hover {
-    transform: translateY(-0.3rem) scale(1.05);
+.asideLinkBtn,
+.asideLinkBtn:visited,
+a.asideLinkBtn,
+a.asideLinkBtn:visited {
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  transition: all 0.3s ease-in;
+
+  background-color: white;
+  color: $orange;
+
+  &:hover,
+  &:active {
+    background-color: $green;
+    color: $orange;
+  }
+
+  &.activeBtn {
+    background-color: $orange;
+    color: $white;
+
+    &:hover,
+    &:active {
+      background-color: $green;
+      color: $orange;
+    }
   }
 }

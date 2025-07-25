@@ -4,7 +4,7 @@ function page() {
   return (
     <section>
       Login
-      <LinkButton link="/specialist/dashboard" color="orange">
+      <LinkButton link="/specialist/dashboard/my-jobs" color="orange">
         Get Started
       </LinkButton>
     </section>

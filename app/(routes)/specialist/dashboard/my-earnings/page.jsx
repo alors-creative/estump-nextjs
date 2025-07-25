@@ -1,5 +1,5 @@
 function page() {
-  return <div>Specialist Dashboard</div>;
+  return <section>earnings</section>;
 }
 
 export default page;

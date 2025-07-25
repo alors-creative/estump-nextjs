@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+
+  section {
+    padding: 6rem 4rem;
+    min-height: 80lvh;
+  }
+}
