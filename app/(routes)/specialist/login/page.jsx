@@ -1,12 +1,10 @@
 import LinkButton from "@/app/_components/buttons/LinkButton";
+import LoginForm from "@/app/_components/forms/contractor/LoginForm";
 
 function page() {
   return (
     <section>
-      Login
-      <LinkButton link="/specialist/dashboard/my-jobs" color="orange">
-        Get Started
-      </LinkButton>
+      <LoginForm />
     </section>
   );
 }
