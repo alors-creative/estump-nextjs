@@ -9,6 +9,18 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, "app/_styles")],
     additionalData: `@use "variables" as *;` // Or `@import "variables";` for legacy
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com"
+      },
+      {
+        protocol: "https",
+        hostname: "encrypted-tbn0.gstatic.com"
+      }
+    ]
   }
 };
 

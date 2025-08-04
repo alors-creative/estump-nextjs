@@ -1,9 +1,13 @@
 .logoBox {
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .logo {
-  height: 5rem;
-  width: 15rem;
+  height: 7rem;
+  width: 20rem;
   aspect-ratio: 16 / 9;
   position: relative;
+  object-fit: cover;
+  object-position: center;
 }

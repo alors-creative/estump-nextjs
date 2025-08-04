@@ -21,9 +21,9 @@ function Hero() {
           a smoother lawn.
         </p>
         <div className={styles.ctaButtons}>
-          <LinkButton link="#" color="orange">
+          {/* <LinkButton link="#" color="orange">
             Find a Stump Specialist
-          </LinkButton>
+          </LinkButton> */}
           <LinkButton link="#" color="green">
             Become a Stump Specialist
           </LinkButton>
@@ -53,7 +53,7 @@ function Hero() {
             styles.heroImageContainer2
           ].join(" ")}>
           <Image
-            src="/photos/stump-grinder-1.jpg"
+            src="/photos/stump-and-machine-2.jpg"
             alt="Photo of a tree stump"
             fill
             priority

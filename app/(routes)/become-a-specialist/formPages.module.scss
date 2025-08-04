@@ -1,0 +1,17 @@
+.section {
+  padding: 6rem 4rem;
+  min-height: 80lvh;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  align-items: center;
+}
+
+.imageContainer {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

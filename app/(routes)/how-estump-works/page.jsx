@@ -25,7 +25,7 @@ const content = [
     text: "When a stump specialist picks up your job, they’ll have 48 hours to schedule a day that works for both parties. You’ll confirm the date and time that suits your schedule."
   },
   {
-    image: "/photos/steps/removal.JPG",
+    image: "/photos/stump-and-machine-4.JPG",
     imageAlt: "Image of a stump grinder and a tree stump being removed",
     step: "Stump Removal and Payment",
     text: "On the scheduled day, your stump specialist will come to remove the stump. Once the job is complete, they’ll collect the remaining payment directly from you based on their accepted payment methods."
@@ -53,7 +53,7 @@ function page() {
             <div className={styles.stepImage}>
               <Image
                 src={c.image}
-                alt={c.alt}
+                alt={c.imageAlt}
                 fill
                 sizes="auto"
                 style={{ objectFit: "cover", objectPosition: "center" }}
@@ -87,7 +87,7 @@ function page() {
             styles.fillerImageGreen
           ].join(" ")}>
           <Image
-            src="/photos/stump-1.jpg"
+            src="/photos/stump-7-vapproved.JPG"
             alt="photo of a stump"
             sizes="auto"
             fill
@@ -101,7 +101,7 @@ function page() {
             styles.fillerImagePurple
           ].join(" ")}>
           <Image
-            src="/photos/stump-1.jpg"
+            src="/photos/stump-8-vapproved.JPG"
             alt="photo of a stump"
             sizes="auto"
             fill
@@ -115,7 +115,7 @@ function page() {
             styles.fillerImageOrange
           ].join(" ")}>
           <Image
-            src="/photos/stump-1.jpg"
+            src="/photos/stump-9-vapproved.JPG"
             alt="photo of a stump"
             sizes="auto"
             fill

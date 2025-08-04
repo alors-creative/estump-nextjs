@@ -2,7 +2,7 @@ export const variables = {
   $orange: "#fc7935",
   $green: "#def080",
   $purple: "#8d9fff",
-  $black: "#141414",
+  $black: "#333",
   $orangeLight: "#fcd8be",
   $white: "#ffffff",
   $grey: "#7d7d7d",

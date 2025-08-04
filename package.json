@@ -3,16 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbopack -p 4444",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.3.3",
+    "@stripe/stripe-js": "^7.6.1",
+    "googleapis": "^154.1.0",
+    "json-server": "^1.0.0-beta.3",
+    "next": "^15.3.3",
+    "nodemailer": "^7.0.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "stripe": "^18.3.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

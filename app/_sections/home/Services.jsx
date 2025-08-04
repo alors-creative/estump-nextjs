@@ -7,7 +7,7 @@ function Services() {
   return (
     <section className={styles.services}>
       <div className={styles.content}>
-        <Image src="/photos/stump-and-machine-1.JPG" alt="" fill sizes="auto" />
+        <Image src="/photos/stump-and-machine-3.JPG" alt="" fill sizes="auto" />
       </div>
       <div className={styles.content}>
         <Heading type="h2" color="orange">

@@ -1,15 +1,17 @@
 import LinkButton from "@/app/_components/buttons/LinkButton";
 import styles from "./loginButton.module.scss";
 
-function LoginButtons() {
+function LoginButtons({ type = "nav" }) {
   return (
     <div className={styles.loginButtons}>
-      <LinkButton link="#" color="green">
-        Stump Specialists
+      <LinkButton
+        link={type !== "footer" ? "/become-a-specialist" : "/specialist/login"}
+        color="green">
+        {type !== "footer" ? "Stump Specialists" : "Specialists Login"}
       </LinkButton>
-      <LinkButton link="#" color="orange">
+      {/* <LinkButton link="/find-a-specialist" color="orange">
         Get a Quote
-      </LinkButton>
+      </LinkButton> */}
     </div>
   );
 }
