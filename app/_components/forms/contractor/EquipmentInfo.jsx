@@ -7,6 +7,7 @@ import Input from "@/app/_components/forms/components/Input";
 import { useForm } from "@/app/_context/FormContext";
 import { handleFormSubmit, handleInputChange } from "@/app/_lib/formUtils";
 import { useRouter } from "next/navigation";
+import styles from "@/app/_components/forms/components/forms.module.scss";
 
 function EquipmentInfo() {
   const router = useRouter();

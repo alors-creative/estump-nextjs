@@ -6,8 +6,24 @@
 
 .footerMain {
   display: grid;
-  grid-template-columns: 2fr 8fr;
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 4rem;
+}
+
+.socials {
+  display: block;
+  justify-self: center;
+
+  a {
+    display: block;
+    color: $purple;
+    font-size: 4rem;
+    transition: 0.3s all ease-in;
+
+    &:hover {
+      color: $orange;
+    }
+  }
 }
 
 .legal {

@@ -7,18 +7,18 @@ function NavLinksFooter() {
       <Link href="/about-us" className={styles.link}>
         About
       </Link>
-      <Link href="#" className={styles.link}>
+      <Link href="/how-estump-works" className={styles.link}>
         How eStump Works
       </Link>
-      <Link href="#" className={styles.link}>
+      {/* <Link href="#" className={styles.link}>
         How We Measure Stumps
-      </Link>
-      <Link href="#" className={styles.link}>
+      </Link> */}
+      <Link href="/contact-us" className={styles.link}>
         Contact Us
       </Link>
-      <Link href="#" className={styles.link}>
+      {/* <Link href="#" className={styles.link}>
         FAQ
-      </Link>
+      </Link> */}
     </div>
   );
 }

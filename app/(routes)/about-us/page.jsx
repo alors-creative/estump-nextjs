@@ -9,8 +9,8 @@ function page() {
     <section className={styles.aboutUs}>
       <OurStory />
       <WhyeStump includeBtn={false} />
-      <OurValsAndMission />
-      <MediaGallery />
+      {/* <OurValsAndMission />
+      <MediaGallery /> */}
     </section>
   );
 }

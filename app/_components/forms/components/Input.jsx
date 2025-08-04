@@ -1,3 +1,5 @@
+import styles from "./forms.module.scss";
+
 function Input({
   type,
   name,
@@ -10,7 +12,7 @@ function Input({
   maxLength
 }) {
   return (
-    <div className="formGroup">
+    <div className={styles.formGroup}>
       <label htmlFor={name}>{placeholder}</label>
       <input
         type={type}
@@ -24,6 +26,7 @@ function Input({
         max={max}
         minLength={minLength}
         maxLength={maxLength}
+        // required
       />
     </div>
   );

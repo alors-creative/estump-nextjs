@@ -21,9 +21,9 @@ function Hero() {
           a smoother lawn.
         </p>
         <div className={styles.ctaButtons}>
-          <LinkButton link="#" color="orange">
+          {/* <LinkButton link="#" color="orange">
             Find a Stump Specialist
-          </LinkButton>
+          </LinkButton> */}
           <LinkButton link="#" color="green">
             Become a Stump Specialist
           </LinkButton>

@@ -10,7 +10,7 @@ function NavLinks() {
       <Link href="/how-estump-works" className={styles.link}>
         How eStump Works
       </Link>
-      <Link href="#" className={styles.link}>
+      <Link href="/contact-us" className={styles.link}>
         Contact Us
       </Link>
     </div>

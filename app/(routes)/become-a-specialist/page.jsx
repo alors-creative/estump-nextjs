@@ -12,8 +12,9 @@ function page() {
         </Heading>
         <p>
           At eStump, we make it easy for you to connect with homeowners who need
-          professional stump removal. Here’s how the process works and how you
-          can get started as a trusted stump specialist in our network.
+          professional stump removal and to increase your productivity in your
+          business. Here’s how the process works and how you can get started as
+          a trusted stump specialist in our network.
         </p>
         <div className={styles.buttons}>
           <LinkButton link="/become-a-specialist/how-it-works" color="orange">

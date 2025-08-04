@@ -9,9 +9,9 @@ function LoginButtons({ type = "nav" }) {
         color="green">
         {type !== "footer" ? "Stump Specialists" : "Specialists Login"}
       </LinkButton>
-      <LinkButton link="/find-a-specialist" color="orange">
+      {/* <LinkButton link="/find-a-specialist" color="orange">
         Get a Quote
-      </LinkButton>
+      </LinkButton> */}
     </div>
   );
 }

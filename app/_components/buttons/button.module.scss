@@ -27,7 +27,12 @@ a.button:visited {
 
   &.green {
     background-color: $green;
-    color: $orange;
+    color: #333;
+  }
+
+  &.purple {
+    background-color: $purple;
+    color: $white;
   }
 }
 

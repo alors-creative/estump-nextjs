@@ -1,3 +1,5 @@
+import styles from "./forms.module.scss";
+
 function Form({ type, submitFunc, children }) {
   return (
     <>
