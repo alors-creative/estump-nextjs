@@ -3,8 +3,8 @@ import styles from "./../layout.module.scss";
 
 async function page({ params }) {
   const { jobId } = await params;
-  const job = await getJob(jobId);
-  const filteredJob = job.filter(j => Number(j.id) === Number(jobId))[0];
+  // const job = await getJob(jobId);
+  // const filteredJob = job.filter(j => Number(j.id) === Number(jobId))[0];
 
   return (
     <section className={styles.section}>
