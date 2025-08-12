@@ -3,6 +3,12 @@ import styles from "./page.module.scss";
 import Image from "next/image";
 import ContactForm from "@/app/_components/forms/contact/ContactForm";
 
+export const metadata = {
+  title: "Contact eStump | Get Help with Stump Removal Questions or Sign Up",
+  description:
+    "Have questions or ready to get started? Contact the eStump team today—we’ll assist with stump removal inquiries or guide you through signing up as a stump specialist."
+};
+
 function page() {
   return (
     <section className={styles.section}>
