@@ -2,6 +2,12 @@ import Image from "next/image";
 import styles from "./howeStumpWorks.module.scss";
 import Heading from "@/app/_components/heading/Heading";
 
+export const metadata = {
+  title: "How eStump Works | Easy Quote, Fast Stump Removal, Local Pros",
+  description:
+    "See how our seamless process works—from submitting stump dimensions and deposit, to being matched with a nearby pro who removes the stump and finalizes payment. Trust eStump for effortless lawn cleanup."
+};
+
 const content = [
   {
     image: "/photos/steps/form.jpg",

@@ -20,8 +20,10 @@ const rosca = localFont({
 });
 
 export const metadata = {
-  title: "eStump 🏡",
-  description: "This is eStump"
+  title:
+    "eStump | Quick & Easy Tree Stump Removal by Trusted Local Specialists",
+  description:
+    "Get rid of stubborn tree stumps fast with eStump. We connect you to vetted, local stump removal experts for transparent pricing and hassle‑free cleanup. Submit your measurements, get a specialist in 48 hours, and enjoy a clean, beautiful yard."
 };
 
 export default function RootLayout({ children }) {
