@@ -15,8 +15,9 @@ $lato: "Inter", sans-serif;
 // OTHER
 
 // RESPONSIVE BREAKPOINTS
-$bp-xl: 75em; // 1200px
-$bp-large: 62.5em; // 1000px
-$bp-med: 50em; // 800px;
-$bp-small: 37.5em; // 600px;
-$bp-xs: 25em; // 400px;
+$bp-laptopL: 90em; // 1440px
+$bp-laptop: 64em; // 1024px
+$bp-tablet: 48em; // 768px
+$bp-mobileL: 35.9375em; // 575px
+$bp-mobileM: 23.4375em; // 375px
+$bp-mobileS: 20em; // 320px

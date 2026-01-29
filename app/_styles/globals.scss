@@ -9,6 +9,10 @@
 
 html {
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-laptop) {
+    font-size: 50%;
+  }
 }
 
 body {

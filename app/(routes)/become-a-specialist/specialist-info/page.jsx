@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function page() {
   return (
-    <section className={styles.section}>
+    <section className={styles.sectionWImage}>
       <InfoForm />
       <div className={styles.imageContainer}>
         <Image

@@ -2,23 +2,45 @@
   padding: 4rem 2rem 2rem;
   border-top: 0.1rem $orange solid;
   box-shadow: -0.1rem -0.9rem 3rem 0 rgba(0, 0, 0, 0.3);
+
+  @media only screen and (max-width: $bp-mobileL) {
+    padding: 3rem 2rem;
+  }
 }
 
 .footerMain {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-bottom: 4rem;
+
+  @media only screen and (max-width: $bp-mobileL) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, max-content);
+    row-gap: 2rem;
+    align-items: center;
+  }
 }
 
 .socials {
   display: block;
   justify-self: center;
 
+  @media only screen and (max-width: $bp-mobileL) {
+    grid-row: 3 / -1;
+    grid-column: 1 / -1;
+  }
+
   a {
     display: block;
     color: $purple;
     font-size: 4rem;
     transition: 0.3s all ease-in;
+
+    @media only screen and (max-width: $bp-mobileL) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
     &:hover {
       color: $orange;
@@ -30,6 +52,12 @@
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
+
+  @media only screen and (max-width: $bp-mobileL) {
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+  }
 }
 
 .copyright,

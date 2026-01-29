@@ -6,6 +6,13 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
 
+  @media only screen and (max-width: $bp-mobileL) {
+    padding: 4rem 2rem;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 50lvh max-content;
+  }
+
   p {
     margin: 1rem 0;
     font-size: 2.2rem;
@@ -19,6 +26,10 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 4rem;
+
+  @media only screen and (max-width: $bp-mobileL) {
+    gap: 2rem;
+  }
 }
 
 .heroImageContainer {

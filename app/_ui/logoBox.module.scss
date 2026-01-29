@@ -10,4 +10,9 @@
   position: relative;
   object-fit: cover;
   object-position: center;
+
+  @media only screen and (max-width: $bp-mobileL) {
+    width: 15rem;
+    height: 5rem;
+  }
 }
