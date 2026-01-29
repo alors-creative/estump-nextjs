@@ -8,6 +8,16 @@
   align-content: center;
   align-items: center;
 
+  @media only screen and (max-width: $bp-tablet) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50lvh max-content;
+    gap: 2rem;
+  }
+
+  @media only screen and (max-width: $bp-mobileL) {
+    padding: 4rem 2rem;
+  }
+
   p {
     margin-top: 1rem;
     font-size: 2.2rem;
@@ -26,6 +36,10 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
+
+  @media only screen and (max-width: $bp-mobileL) {
+    padding: 4rem 2rem;
+  }
 }
 
 .buttons {
@@ -40,6 +54,13 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 3rem;
+
+  @media only screen and (max-width: $bp-tablet) {
+    gap: 2rem;
+    height: 100%;
+    grid-row: 1 / 2;
+    margin-bottom: 2rem;
+  }
 }
 
 .heroImageContainer {

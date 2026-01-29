@@ -6,6 +6,41 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
   align-items: center;
+
+  @media only screen and (max-width: $bp-mobileL) {
+    padding: 4rem 2rem;
+
+    grid-template-columns: 1fr;
+  }
+}
+
+.sectionWImage {
+  padding: 6rem 4rem;
+  min-height: 80lvh;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  align-items: center;
+
+  @media only screen and (max-width: $bp-mobileL) {
+    padding: 4rem 2rem;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 35lvh max-content;
+  }
+
+  & > :first-child {
+    @media only screen and (max-width: $bp-mobileL) {
+      grid-row: 2 / 3;
+    }
+  }
+
+  & > :last-child {
+    @media only screen and (max-width: $bp-mobileL) {
+      grid-row: 1 / 2;
+    }
+  }
 }
 
 .imageContainer {
