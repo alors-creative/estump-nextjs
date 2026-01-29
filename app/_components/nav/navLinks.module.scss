@@ -6,12 +6,22 @@
 
   display: flex;
   column-gap: 10rem;
+
+  @media only screen and (max-width: $bp-tablet) {
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+  }
 }
 
 .link {
   font-size: 2.2rem;
   text-decoration: none;
   transition: all 0.3s ease-in;
+  flex: 0 0 auto;
 
   &:visited,
   &:link {

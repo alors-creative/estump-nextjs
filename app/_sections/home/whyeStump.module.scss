@@ -3,6 +3,10 @@
   margin-bottom: 4rem;
   padding: 0 4rem;
 
+  @media only screen and (max-width: $bp-mobileL) {
+    padding: 0 2rem;
+  }
+
   h2 {
     margin-bottom: 0.5rem;
   }
@@ -20,12 +24,25 @@
   text-align: center;
   display: inline-block;
   line-height: 1.3;
+
+  @media only screen and (max-width: $bp-tablet) {
+    width: 85%;
+  }
+
+  @media only screen and (max-width: $bp-mobileM) {
+    width: 100%;
+  }
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 4rem;
+
+  @media only screen and (max-width: $bp-mobileL) {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
 }
 
 .buttons {
