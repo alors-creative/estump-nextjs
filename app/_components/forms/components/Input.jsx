@@ -26,7 +26,7 @@ function Input({
         max={max}
         minLength={minLength}
         maxLength={maxLength}
-        // required
+        required
       />
     </div>
   );

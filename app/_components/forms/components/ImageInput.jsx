@@ -98,7 +98,7 @@ function ImageInput({ name, documentType = "stump" }) {
           const files = Array.from(e.target.files ?? []);
           if (files.length > 0) handleMultipleUploads(files);
         }}
-        // required
+        required
       />
       {isUploadingLocal && (
         <p className={styles.uploading}>Uploading more images…</p>
