@@ -14,11 +14,15 @@ oAuth2Client.setCredentials({
 });
 
 export async function POST(request) {
-  const { firstName, lastName, email, phoneNumber, message } =
+  const { firstName, lastName, email, phoneNumber, message, company } =
     await request.json();
 
   try {
     const accessToken = await oAuth2Client.getAccessToken();
+
+    // Honeypot
+    const honeypot = (form.get("company") ?? "").toString().trim();
+    if (honeypot) return redirectTo(req, "/thank-you");
 
     const transporter = nodemailer.createTransport({
       service: "gmail",

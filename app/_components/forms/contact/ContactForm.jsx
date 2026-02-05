@@ -72,6 +72,13 @@ function ContactForm() {
         onChange={handleChange}
       />
       <TextArea name="message" placeholder="Message" onChange={handleChange} />
+      <input
+        type="text"
+        name="company"
+        tabIndex={-1}
+        autoComplete="off"
+        style={{ display: "none" }}
+      />
       <FormSubmitButton color="orange">Next</FormSubmitButton>
     </Form>
   );
