@@ -8,6 +8,13 @@ const oAuth2Client = new google.auth.OAuth2(
   "https://developers.google.com/oauthplayground" // or your real redirect URI
 );
 
+function redirectTo(req, path) {
+  const url = new URL(req.url);
+  url.pathname = path;
+  url.search = "";
+  return Response.redirect(url.toString(), 303);
+}
+
 // Set your refresh token here
 oAuth2Client.setCredentials({
   refresh_token: process.env.GOOGLE_REFRESH_TOKEN
@@ -21,8 +28,8 @@ export async function POST(request) {
     const accessToken = await oAuth2Client.getAccessToken();
 
     // Honeypot
-    const honeypot = (form.get("company") ?? "").toString().trim();
-    if (honeypot) return redirectTo(req, "/thank-you");
+    const honeypot = (company ?? "").toString().trim();
+    if (honeypot) return redirectTo(req, "/contact-us/thank-you");
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
