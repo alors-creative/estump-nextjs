@@ -28,9 +28,9 @@ function ContractorDisclaimerForm() {
             with clients seeking stump removal services.
           </li>
           <li>
-            I agree that eStump collects a 20% deposit from the client to secure
-            the booking, and that the remaining balance is to be paid directly
-            by the client upon completion of the service.
+            I agree that eStump collects a deposit from the client to secure the
+            booking, and that the remaining balance is to be paid directly by
+            the client upon completion of the service.
           </li>
           <li>
             I understand that any additional work outside of the original quote

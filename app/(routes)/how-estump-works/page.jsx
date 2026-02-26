@@ -14,7 +14,7 @@ const content = [
     imageAlt:
       "Image of someone sitting at their desk filling out an online form",
     step: "Request a Quote",
-    text: "Start by filling out a quote form, including your stump's measurements. Instructions will guide you through the process, ensuring an accurate estimate. You’ll also pay a 20% deposit that goes directly to eStump to secure your booking."
+    text: "Start by filling out a quote form, including your stump's measurements. Instructions will guide you through the process, ensuring an accurate estimate. You’ll also pay a deposit that goes directly to eStump to secure your booking."
   },
   {
     image: "/photos/steps/handshake.jpg",

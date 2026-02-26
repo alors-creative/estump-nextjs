@@ -10,7 +10,7 @@ function HowItWorksSection() {
       </Heading>
       <p className={styles.text}>
         Getting rid of a tree stump has never been easier with eStump. Start by
-        filling out a simple quote form with your stump’s measurements and a 20%
+        filling out a simple quote form with your stump’s measurements and a
         deposit. We’ll match you with a trusted stump specialist in your area
         who will review your request. Once a specialist picks up your job,
         they’ll schedule a time to come out and remove the stump. On the day of
