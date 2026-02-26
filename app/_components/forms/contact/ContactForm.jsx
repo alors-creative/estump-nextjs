@@ -79,7 +79,7 @@ function ContactForm() {
         autoComplete="off"
         style={{ display: "none" }}
       />
-      <FormSubmitButton color="orange">Next</FormSubmitButton>
+      <FormSubmitButton color="orange">Submit</FormSubmitButton>
     </Form>
   );
 }
